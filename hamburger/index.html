@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гамбургер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend>Создать гамбургер</legend>
+            <div class="size">
+                <p>Выбери размер:</p>
+                <input type="radio" name="size" id="small">
+                <label for="small">Маленький</label>
+                <input type="radio" name="size" id="large">
+                <label for="large">Большой</label>
+            </div>
+            <div class="options">
+                <p>Выбери начинку:</p>
+                <input type="checkbox" name="add" id="cheese">
+                <label for="cheese">С сыром</label>
+                <input type="checkbox" name="add" id="salad">
+                <label for="salad">С салатом</label>
+                <input type="checkbox" name="add" id="potato">
+                <label for="potato">С картофелем</label>
+            </div>
+            <div class="additions">
+                <p>Дополнительно:</p>
+                <input type="checkbox" name="add" id="spice">
+                <label for="spice">Добавить приправу</label>
+                <input type="checkbox" name="add" id="mayonez">
+                <label for="mayonez">Полить майонезом</label>
+            </div>
+            <input type="submit" value="Сделать заказ">
+        </fieldset>
+        <div>
+            <p><b>Стоимость:</b> <span id="burger-cost">0</span> рублей</p>
+            <p><b>Калорийность:</b> <span id="burger-cal">0</span> кКал</p>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
