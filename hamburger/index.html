@@ -16,26 +16,40 @@
             <legend>Создать гамбургер</legend>
             <div class="size">
                 <p>Выбери размер:</p>
-                <input type="radio" name="size" id="small">
-                <label for="small">Маленький</label>
-                <input type="radio" name="size" id="large">
-                <label for="large">Большой</label>
+                <div>
+                    <input type="radio" name="size" id="small" checked>
+                    <label for="small">Маленький (50 рублей, 20 калорий)</label>
+                </div>
+                <div>
+                    <input type="radio" name="size" id="large">
+                    <label for="large">Большой (100 рублей, 40 калорий)</label>
+                </div>
             </div>
             <div class="options">
                 <p>Выбери начинку:</p>
-                <input type="checkbox" name="add" id="cheese">
-                <label for="cheese">С сыром</label>
-                <input type="checkbox" name="add" id="salad">
-                <label for="salad">С салатом</label>
-                <input type="checkbox" name="add" id="potato">
-                <label for="potato">С картофелем</label>
+                <div>
+                    <input type="radio" name="add" id="cheese" checked>
+                    <label for="cheese">С сыром (+10 рублей, +20 калорий)</label>
+                </div>
+                <div>
+                    <input type="radio" name="add" id="salad">
+                    <label for="salad">С салатом (+20 рублей, +5 калорий)</label>
+                </div>
+                <div>
+                    <input type="radio" name="add" id="potato">
+                    <label for="potato">С картофелем (+15 рублей, +10 калорий)</label>
+                </div>
             </div>
             <div class="additions">
                 <p>Дополнительно:</p>
-                <input type="checkbox" name="add" id="spice">
-                <label for="spice">Добавить приправу</label>
-                <input type="checkbox" name="add" id="mayonez">
-                <label for="mayonez">Полить майонезом</label>
+                <div>
+                    <input type="checkbox" name="add" id="spice">
+                    <label for="spice">Добавить приправу (+15 рублей, +0 калорий)</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="add" id="mayonez">
+                    <label for="mayonez">Полить майонезом (+20 рублей, +5 калорий)</label>
+                </div>
             </div>
             <input type="submit" value="Сделать заказ">
         </fieldset>

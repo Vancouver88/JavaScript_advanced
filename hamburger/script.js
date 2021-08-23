@@ -72,6 +72,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const componentsList = new ComponentsList();
     const burger = new Hamburger(componentsList);
 
+    burger.createHamburger();
+
     document.addEventListener('input', () => {
         burger.createHamburger();
     });
