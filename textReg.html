@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <textarea name="text" id="text" cols="80" rows="20"></textarea>
+        <button class="button" type="button">Сгенерировать</button>
+    </form>
+    <script>
+        document.querySelector('.button').addEventListener('click', () => {
+            let text = document.getElementById('text').value;
+            //document.getElementById('text').value = text.replace(/'/g, '"'); - вариант замены ' на "
+            document.getElementById('text').value = text.replace(/'(?![a-z]+)/g, '"');
+        })
+    </script>
+</body>
+
+</html>
