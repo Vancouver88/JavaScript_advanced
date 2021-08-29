@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" class="form">
+        <span>Ваше имя</span>
+        <input type="text" id="name" required>
+        <p class="nameErr hidden">Вы ввели некорректное имя! Используйте только латинские буквы!</p>
+        <span>Номер телефона</span>
+        <input type="tel" id="tel" required>
+        <p class="telErr hidden">Вы ввели некорректный телефон! Формат "+7(000)000-0000"!</p>
+        <span>E-mail</span>
+        <input type="email" id="email" required>
+        <p class="mailErr hidden">Вы ввели некорректный e-mail! Используйте только почту mail.ru!</p>
+        <span>Текст сообщения</span>
+        <textarea id="text" cols="30" rows="10"></textarea>
+        <p class="textErr hidden">Вы ничего не ввели!</p>
+        <button class="button" type="submit">Отправить</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

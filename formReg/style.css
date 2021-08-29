@@ -1,0 +1,29 @@
+body {
+    max-width: 400px;
+    margin   : 100px auto;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+form {
+    display       : flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-top: 30px;
+    border    : 1px solid black;
+}
+
+p {
+    margin   : 0;
+    color    : red;
+    font-size: 12px;
+}
+
+.inputErr {
+    border: 1px solid red;
+}
