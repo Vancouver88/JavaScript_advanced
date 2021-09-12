@@ -1,0 +1,32 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Mouse",
+    "price": 200
+  },
+  {
+    "id_product": 2,
+    "product_name": "Keyboard",
+    "price": 300
+  },
+  {
+    "id_product": 3,
+    "product_name": "Web camera",
+    "price": 350
+  },
+  {
+    "id_product": 4,
+    "product_name": "Mouse pad",
+    "price": 100
+  },
+  {
+    "id_product": 5,
+    "product_name": "Monitor",
+    "price": 600
+  },
+  {
+    "id_product": 6,
+    "product_name": "System block",
+    "price": 1000
+  }
+]
