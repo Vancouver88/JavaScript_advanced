@@ -1,54 +1,5 @@
 {
     "amount": 104,
     "countGoods": 2,
-    "contents": [
-        {
-            "quantity": 4,
-            "id_product": 3,
-            "product_name": "Hoody",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card3.jpg"
-        },
-        {
-            "quantity": 4,
-            "id_product": 1,
-            "product_name": "Jacket",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card1.jpg"
-        },
-        {
-            "quantity": 2,
-            "id_product": 2,
-            "product_name": "Dress",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card2.jpg"
-        },
-        {
-            "quantity": 2,
-            "id_product": 5,
-            "product_name": "Jacket",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card5.jpg"
-        },
-        {
-            "quantity": 1,
-            "id_product": 4,
-            "product_name": "Pants",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card4.jpg"
-        },
-        {
-            "quantity": 3,
-            "id_product": 6,
-            "product_name": "Shirt",
-            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
-            "price": 52,
-            "imgPath": "img/card6.jpg"
-        }
-    ]
+    "contents": []
 }
