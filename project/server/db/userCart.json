@@ -1,0 +1,22 @@
+{
+    "amount": 104,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Dress",
+            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 52,
+            "imgPath": "img/card2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 6,
+            "product_name": "Shirt",
+            "product_describe": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 52,
+            "imgPath": "img/card6.jpg"
+        }
+    ]
+}
