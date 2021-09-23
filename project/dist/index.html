@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="72038951a562ea7dd9fb.css">
+    <title>Shop</title>
+<script defer src="./build.js"></script></head>
+
+<body>
+    <div id="app">
+        <header class="header">
+
+            <div class="container header__wrap">
+                <nav class="header__left">
+                    <a class="header__logo" href="/">
+                        <img src="708e3c3869551b418118.png" width="44" height="38" alt="logo">
+                    </a>
+                    <filter-el></filter-el>
+                </nav>
+                <nav class="header__right">
+                    <menu-el></menu-el>
+                    <div class="header__item">
+                        <a href="#"><img src="94e34999ad9f865938bd.svg" width="29" height="29" alt="user"></a>
+                    </div>
+                    <cart ref="cart"></cart>
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="intro">
+                <div class="container intro__wrap">
+                    <div class="intro__wrap-height"></div>
+                    <div class="intro__text">
+                        <h1>
+                            <span class="intro__text__top">the brand</span>
+                            of luxerious <span class="intro__text__decor">fashion</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container offers">
+                    <div class="offers__block offers__women">
+                        <a class="offers__block-link" href="#">30% off <span class="font__link">for women</span></a>
+                    </div>
+                    <div class="offers__block offers__men">
+                        <a class="offers__block-link" href="#">hot deal <span class="font__link">for men</span></a>
+                    </div>
+                    <div class="offers__block offers__kids">
+                        <a class="offers__block-link" href="#">new arrivals <span class="font__link">for kids</span></a>
+                    </div>
+                    <div class="offers__block offers__accesories">
+                        <a class="offers__block-link-acces" href="#">luxerious & trendy <span
+                                class="font__link">accesories</span></a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container content">
+                    <h2>Fetured Items</h2>
+                    <p>Shop for items based on what we featured in this week</p>
+                    <products ref="products"></products>
+                </div>
+            </section>
+
+            <section class="privileges">
+                <div class="container privileges__info">
+                    <div class="privileges__offer">
+                        <img src="61dbad6593f8443175c4.svg" width="45" height="32" alt="delivery">
+                        <h3>Free Delivery</h3>
+                        <p>Worldwide delivery on&nbsp;all. Authorit tively morph
+                            next&#8209;generation
+                            innovation with extensivemodels.</p>
+                    </div>
+                    <div class="privileges__offer">
+                        <img src="c5c6ba7afb7c512f3974.svg" width="40" height="40" alt="sales">
+                        <h3>Sales & discounts</h3>
+                        <p>Worldwide delivery on&nbsp;all. Authorit tively morph
+                            next&#8209;generation
+                            innovation with extensivemodels.</p>
+                    </div>
+                    <div class="privileges__offer">
+                        <img src="707c6e6d6c35b75b6119.svg" width="47" height="35" alt="quality">
+                        <h3>Quality assurance</h3>
+                        <p>Worldwide delivery on&nbsp;all. Authorit tively morph
+                            next&#8209;generation
+                            innovation with extensivemodels.</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+
+            <section class="subscribe">
+                <div class="container footer__center">
+                    <div class="subscribe__feedback">
+                        <div class="subscribe__feedback__info">
+                            <img src="4834d4d6ff09238c3bfa.png" width="96" height="96" alt="photo">
+                            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                                <i>a pulvinar purus condimentum</i>“
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subscribe__form">
+                        <form action="#">
+                            <h4>subscribe</h4>
+                            <h6>for our newletter and promotion</h6>
+                            <div class="input__submit">
+                                <input class="mail__input" type="email" placeholder="Enter Your Email" required>
+                                <button class="button__submit" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="social">
+                <div class="container social__container">
+                    <div class="copyright">
+                        <p>&copy; 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="social__links">
+                        <a href="#"><span class="iconify iconify__social" data-inline="false"
+                                data-icon="ei:sc-facebook"></span></a>
+                        <a href="#"><span class="iconify iconify__social" data-inline="false"
+                                data-icon="ei:sc-instagram"></span></a>
+                        <a href="#"><span class="iconify iconify__social" data-inline="false"
+                                data-icon="typcn:social-pinterest"></span></a>
+                        <a href="#"><span class="iconify iconify__social" data-inline="false"
+                                data-icon="ei:sc-twitter"></span></a>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="70c504efc004d0f043e7.js"></script>
+    <script src="3be6af50497bb1476c1e.js"></script>
+    <script src="a3fbca0daea4bf63b28b.js"></script>
+    <script src="7a256047838033de10be.js"></script>
+    <script src="729b60c2da445a9cf4d4.js"></script>
+</body>
+
+</html>
